@@ -2,7 +2,7 @@
 # check if the required arguments are provided
 if [ -z "$1" ] || [ -z "$2" ]; then
   echo "Usage: generate-ssl-cert <number_of_days> <domain> [output_dir]"
-  echo "Example: generate-ssl-cert 1825 '*.home.local' home.local ./directory"
+  echo "Example: generate-ssl-cert 1825 '*.home.local' ./directory"
   exit 1
 fi
 
